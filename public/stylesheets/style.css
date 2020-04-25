@@ -1,0 +1,29 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: black;
+}
+
+#navigationBar {
+  background-color:#DBA506;
+  height:100px;
+  padding:0px;
+}
+#navbarList {
+  padding-top:30px;
+  padding-bottom:30px;
+  padding-right:25px;
+  list-style-type:none;
+  float:right;
+}
+li.navbarOptions {
+  padding-left:15px;
+  float: left;
+}
+
+li.navbarOptions a {
+  font-size:20px;
+  display: block;
+}
