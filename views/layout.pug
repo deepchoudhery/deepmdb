@@ -13,7 +13,7 @@ html
       .collapse.navbar-collapse(id='navbarSupportedContent')
         ul.navbar-nav.mr-auto
           li.nav-item
-            a.nav-link(href='/ratings', onclick="play()") My Ratings
+            a.nav-link(href='/ratings?start=0&end=100', onclick="play()") My Ratings
           li.nav-item
             a.nav-link(href='/top') Top Lists
           li.nav-item
@@ -25,10 +25,3 @@ html
             i.fas.fa-search(aria-hidden="true")
 
     block content
-
-
-//- <form class="form-inline d-flex justify-content-center md-form form-sm active-cyan-2 mt-2">
-//-   <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search"
-//-     aria-label="Search">
-//-   <i class="fas fa-search" aria-hidden="true"></i>
-//- </form>

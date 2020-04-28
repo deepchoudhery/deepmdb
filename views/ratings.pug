@@ -1,8 +1,12 @@
 extends layout
 
 block content
-    ul#slides.swiper-wrapper
-        each movie in movies
-            li.swiper-slide
-                img(src=movie.ImageUrl)
-                p #{movie.Name}
+    ul
+    each movie in movies
+        div.movieWrapper
+            div.movie
+                img#movieImg(src=movie.ImageUrl)
+                div.movieDetails
+                    p #{movie.Name}
+                    p #{movie.Description}
+                    p #{movie.Rating}

@@ -14,7 +14,7 @@ async function GetMoviesFromDb() {
 }
 
 async function Setup() {
-    //imdb.scrapeImdb("/user/ur26735780/ratings", AddMoviesToDb);
+    imdb.scrapeImdb("/user/ur26735780/ratings", AddMoviesToDb);
 }
 
 function AddMoviesToDb(movies) {

@@ -17,13 +17,10 @@ let addMovie = function (movie) {
         movieDb.run(sql, values, function (err) {
             if (err) {
                 console.log("Failed to add movie with name - " + values[0] + " and id - " + values[1]);
-                //console.error(err);
-
-                //queryResponse.status(500).send(err);
             }
 
             else {
-
+                console.log("Add movie name - " + values[0] + " and id - " + values[1]);
             }
         });
     });

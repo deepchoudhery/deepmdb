@@ -6,24 +6,32 @@ a {
   color: black;
 }
 
-#navigationBar {
-  background-color:#DBA506;
-  height:100px;
-  padding:0px;
-}
-#navbarList {
-  padding-top:30px;
-  padding-bottom:30px;
-  padding-right:25px;
-  list-style-type:none;
-  float:right;
-}
-li.navbarOptions {
-  padding-left:15px;
-  float: left;
+img#movieImg {
+  float:left;
+  width: 200px;
+  height: 297px;
 }
 
-li.navbarOptions a {
-  font-size:20px;
-  display: block;
+div.movie {
+  display:flex;
+}
+
+div.movieWrapper {
+  text-align: start;
+  padding-left: 100px;
+  width: 600px;
+  height : 350px;
+  display:inline-block;
+}
+
+div.movieDetails {
+  padding-top: 2px;
+  padding-left: 10px;
+  float:right;
+}
+
+ul {
+  text-align: center;
+  padding-left: 100px;
+  padding-right:100px;
 }

@@ -43,7 +43,6 @@ let scrapeImdb = function get(userUrl, res) {
             else {
                 res(movies);
             }
-            
         })
 
         .catch(error => {
