@@ -7,6 +7,6 @@ block content
             div.movie
                 img#movieImg(src=movie.ImageUrl)
                 div.movieDetails
-                    p #{movie.Name}
+                    a#movieTitle(href="https://www.imdb.com/title/" + movie.ImdbId) #{movie.Name}
                     p #{movie.Description}
                     p #{movie.Rating}

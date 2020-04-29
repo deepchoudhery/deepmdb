@@ -35,3 +35,22 @@ ul {
   padding-left: 100px;
   padding-right:100px;
 }
+#movieTitle {
+  font-size: 22px;
+}
+
+a#movieTitle:link {
+  color: black;
+}
+
+a#movieTitle:visited {
+  color: blue;
+}
+
+a#movieTitle:link:active {
+  color: red;
+}
+
+a#movieTitle:visited:active {
+  color: red;
+}

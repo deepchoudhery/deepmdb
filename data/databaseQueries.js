@@ -18,10 +18,6 @@ let addMovie = function (movie) {
             if (err) {
                 console.log("Failed to add movie with name - " + values[0] + " and id - " + values[1]);
             }
-
-            else {
-                console.log("Add movie name - " + values[0] + " and id - " + values[1]);
-            }
         });
     });
 }
